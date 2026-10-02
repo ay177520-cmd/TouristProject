@@ -24,7 +24,7 @@ db.connect((err) => {
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(express.static("Public"));
+app.use(express.static(""));
 
 app.get("/", (req, res) => {
     res.send(`
