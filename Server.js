@@ -28,17 +28,8 @@ app.use(express.json());
 
 app.use(express.static("Public"));
 
-
 app.get("/", (req, res) => {
-
-    res.send(`
-        <h1>Welcome to Tourist Guide Project</h1>
-
-        <p>
-            <a href="/places">View Tourist Places</a>
-        </p>
-    `);
-
+    res.redirect("/index.html");
 });
 
 
