@@ -165,10 +165,19 @@ app.get("/places", (req, res) => {
         </head>
 
 
-        <body>
+       <body>
 
-            <h1>Tourist Places in India</h1>
+<nav style="background:#023e8a; padding:15px; text-align:center;">
+    <a href="/index.html" style="color:white; text-decoration:none; margin:0 20px; font-size:18px;">
+        Home
+    </a>
 
+    <a href="/places" style="color:white; text-decoration:none; margin:0 20px; font-size:18px;">
+        Places
+    </a>
+</nav>
+
+<h1>Tourist Places in India</h1>
 
             <a class="add" href="/add">
 
